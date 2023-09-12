@@ -1,0 +1,72 @@
+Running: D:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/Computer composition course design/project 6/pipelineplus/wqqe_isim_beh.exe -prj D:/Computer composition course design/project 6/pipelineplus/wqqe_beh.prj work.wqqe work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/reg4.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/reg3.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/reg2.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/reg1.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/PC.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/NPC.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/MUL.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/MU9.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/MU6.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/MU5.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/MU3.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/M3.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/M1.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/IM.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/hazard.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/GRF.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/EXT.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/DMEXT.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/DM.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/control3.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/control2.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/control1.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/control0.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/BEEXT.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/ALU.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/add4.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/mips.v" into library work
+Analyzing Verilog file "D:/Computer composition course design/project 6/pipelineplus/wqqe.v" into library work
+Analyzing Verilog file "D:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/Computer composition course design/project 6/pipelineplus/mips.v" Line 61: Size mismatch in connection of port <rt>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module PC
+Compiling module IM
+Compiling module add4
+Compiling module reg1
+Compiling module GRF
+Compiling module EXT
+Compiling module NPC
+Compiling module reg2
+Compiling module M1
+Compiling module ALU
+Compiling module reg3
+Compiling module DM
+Compiling module BEEXT
+Compiling module MUL
+Compiling module reg4
+Compiling module DMEXT
+Compiling module MU5
+Compiling module M3
+Compiling module hazard
+Compiling module MU9
+Compiling module MU6
+Compiling module MU3
+Compiling module control0
+Compiling module control1
+Compiling module control2
+Compiling module control3
+Compiling module mips
+Compiling module wqqe
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 15 sub-compilation(s) to finish...
+Compiled 29 Verilog Units
+Built simulation executable D:/Computer composition course design/project 6/pipelineplus/wqqe_isim_beh.exe
+Fuse Memory Usage: 53152 KB
+Fuse CPU Usage: 2343 ms

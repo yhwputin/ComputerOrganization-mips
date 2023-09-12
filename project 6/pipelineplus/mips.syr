@@ -1,0 +1,277 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xa3s50-4-vqg100
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "reg4.v" in library work
+Compiling verilog file "reg3.v" in library work
+Module <reg4> compiled
+Compiling verilog file "reg2.v" in library work
+Module <reg3> compiled
+Compiling verilog file "reg1.v" in library work
+Module <reg2> compiled
+Compiling verilog file "PC.v" in library work
+Module <reg1> compiled
+Compiling verilog file "NPC.v" in library work
+Module <PC> compiled
+Compiling verilog file "MUL.v" in library work
+Module <NPC> compiled
+Compiling verilog file "MU9.v" in library work
+Module <MUL> compiled
+Compiling verilog file "MU6.v" in library work
+Module <MU9> compiled
+Compiling verilog file "MU5.v" in library work
+Module <MU6> compiled
+Compiling verilog file "MU3.v" in library work
+Module <MU5> compiled
+Compiling verilog file "M3.v" in library work
+Module <MU3> compiled
+Compiling verilog file "M1.v" in library work
+Module <M3> compiled
+Compiling verilog file "IM.v" in library work
+Module <M1> compiled
+Compiling verilog file "hazard.v" in library work
+Module <IM> compiled
+Compiling verilog file "GRF.v" in library work
+Module <hazard> compiled
+Compiling verilog file "EXT.v" in library work
+Module <GRF> compiled
+Compiling verilog file "DMEXT.v" in library work
+Module <EXT> compiled
+Compiling verilog file "DM.v" in library work
+Module <DMEXT> compiled
+Compiling verilog file "control3.v" in library work
+Module <DM> compiled
+Compiling verilog file "control2.v" in library work
+Module <control3> compiled
+Compiling verilog file "control1.v" in library work
+Module <control2> compiled
+Compiling verilog file "control0.v" in library work
+Module <control1> compiled
+Compiling verilog file "BEEXT.v" in library work
+Module <control0> compiled
+Compiling verilog file "ALU.v" in library work
+Module <BEEXT> compiled
+Compiling verilog file "add4.v" in library work
+Module <ALU> compiled
+Compiling verilog file "mips.v" in library work
+Module <add4> compiled
+Module <mips> compiled
+No errors in compilation
+Analysis of file <"mips.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <mips> in library <work>.
+
+Analyzing hierarchy for module <PC> in library <work>.
+
+Analyzing hierarchy for module <IM> in library <work>.
+
+Analyzing hierarchy for module <add4> in library <work>.
+
+Analyzing hierarchy for module <reg1> in library <work>.
+
+Analyzing hierarchy for module <GRF> in library <work>.
+
+Analyzing hierarchy for module <EXT> in library <work>.
+
+Analyzing hierarchy for module <NPC> in library <work>.
+
+Analyzing hierarchy for module <reg2> in library <work>.
+
+Analyzing hierarchy for module <M1> in library <work>.
+
+Analyzing hierarchy for module <ALU> in library <work>.
+
+Analyzing hierarchy for module <reg3> in library <work>.
+
+Analyzing hierarchy for module <DM> in library <work>.
+
+Analyzing hierarchy for module <BEEXT> in library <work>.
+
+Analyzing hierarchy for module <MUL> in library <work>.
+
+Analyzing hierarchy for module <reg4> in library <work>.
+
+Analyzing hierarchy for module <DMEXT> in library <work>.
+
+Analyzing hierarchy for module <MU5> in library <work>.
+
+Analyzing hierarchy for module <M3> in library <work>.
+
+Analyzing hierarchy for module <hazard> in library <work>.
+
+Analyzing hierarchy for module <MU9> in library <work>.
+
+Analyzing hierarchy for module <MU6> in library <work>.
+
+Analyzing hierarchy for module <MU3> in library <work>.
+
+Analyzing hierarchy for module <control0> in library <work>.
+
+Analyzing hierarchy for module <control1> in library <work>.
+
+Analyzing hierarchy for module <control2> in library <work>.
+
+Analyzing hierarchy for module <control3> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <mips>.
+Module <mips> is correct for synthesis.
+ 
+Analyzing module <PC> in library <work>.
+Module <PC> is correct for synthesis.
+ 
+Analyzing module <IM> in library <work>.
+INFO:Xst:2546 - "IM.v" line 27: reading initialization file "code.txt".
+WARNING:Xst:2319 - "IM.v" line 27: Signal ROM in initial block is partially initialized. The initialization will be ignored.
+INFO:Xst:1433 - Contents of array <ROM> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Module <IM> is correct for synthesis.
+ 
+Analyzing module <add4> in library <work>.
+Module <add4> is correct for synthesis.
+ 
+Analyzing module <reg1> in library <work>.
+Module <reg1> is correct for synthesis.
+ 
+Analyzing module <GRF> in library <work>.
+WARNING:Xst:2321 - "GRF.v" line 49: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "GRF.v" line 49: Parameter 3 is not constant in call of system task $display.
+WARNING:Xst:2323 - "GRF.v" line 49: Parameter 4 is not constant in call of system task $display.
+WARNING:Xst:2323 - "GRF.v" line 49: Parameter 5 is not constant in call of system task $display.
+"GRF.v" line 49: $display : %h: $%d <= %h
+WARNING:Xst:2321 - "GRF.v" line 53: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "GRF.v" line 53: Parameter 3 is not constant in call of system task $display.
+"GRF.v" line 53: $display : %h
+WARNING:Xst:2321 - "GRF.v" line 57: Parameter 2 ($time) is not supported in call of system task $display.
+WARNING:Xst:2323 - "GRF.v" line 57: Parameter 3 is not constant in call of system task $display.
+"GRF.v" line 57: $display : %h
+Module <GRF> is correct for synthesis.
+ 
+Analyzing module <EXT> in library <work>.
+Module <EXT> is correct for synthesis.
+ 
+Analyzing module <NPC> in library <work>.
+Module <NPC> is correct for synthesis.
+ 
+Analyzing module <reg2> in library <work>.
+Module <reg2> is correct for synthesis.
+ 
+Analyzing module <M1> in library <work>.
+Module <M1> is correct for synthesis.
+ 
+Analyzing module <ALU> in library <work>.
+Module <ALU> is correct for synthesis.
+ 
+Analyzing module <reg3> in library <work>.
+Module <reg3> is correct for synthesis.
+ 
+Analyzing module <DM> in library <work>.
+WARNING:Xst:2319 - "DM.v" line 36: Signal RAM in initial block is partially initialized. The initialization will be ignored.

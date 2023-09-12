@@ -1,0 +1,29 @@
+Command line:
+   wqqe_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49921
+
+Fri Jan 05 10:25:28 2018
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 1052.15 Meg
+
+ Total Signals          : 591
+ Total Nets             : 2769
+ Total Signal Drivers   : 300
+ Total Blocks           : 38
+ Total Primitive Blocks : 36
+ Total Processes        : 313
+ Total Traceable Variables  : 70
+ Total Scalar Nets and Variables : 267495
+Total Line Count : 458
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 1052.15 Meg
+
+Fri Jan 05 10:34:40 2018
+

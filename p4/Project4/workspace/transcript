@@ -1,0 +1,85 @@
+# Reading G:/modeltech_10.1a/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile G:/modeltech_10.1a/workspace/project2.mpf 
+# Loading project project2
+vsim -novopt work.testbench_miniuart
+# vsim -novopt work.testbench_miniuart 
+# Loading work.testbench_miniuart
+# Loading work.MiniUART
+# Loading work.rx_unit
+# Loading work.tx_unit
+# Loading work.ctrl_shift
+# Loading work.trans_reg
+# Loading work.divisor
+# Loading work.counter
+do G:/modeltech_10.1a/workspace/src/pro2_wave.do
+run -all
+# Break in Module testbench_miniuart at G:/modeltech_10.1a/workspace/src/testbench.v line 52
+quit -sim
+vsim -novopt work.testbench_miniuart
+# vsim -novopt work.testbench_miniuart 
+# Loading work.testbench_miniuart
+# Loading work.MiniUART
+# Loading work.rx_unit
+# Loading work.tx_unit
+# Loading work.ctrl_shift
+# Loading work.trans_reg
+# Loading work.divisor
+# Loading work.counter
+add wave -position end  sim:/testbench_miniuart/clk
+add wave -position end  sim:/testbench_miniuart/rst
+add wave -position end  sim:/testbench_miniuart/stb
+add wave -position end  sim:/testbench_miniuart/we
+add wave -position end  sim:/testbench_miniuart/off
+add wave -position end  sim:/testbench_miniuart/din
+add wave -position end  sim:/testbench_miniuart/dout
+add wave -position end  sim:/testbench_miniuart/dsave
+add wave -position end  sim:/testbench_miniuart/ack
+add wave -position end  sim:/testbench_miniuart/rxd
+add wave -position end  sim:/testbench_miniuart/txd
+run -all
+# Break in Module testbench_miniuart at G:/modeltech_10.1a/workspace/src/testbench.v line 52
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Administrator/Desktop/pro2_wave1.do
+do C:/Users/Administrator/Desktop/pro2_wave1.do
+run -all
+# Break key hit 
+# Break in Module rx_unit at G:/modeltech_10.1a/workspace/src/rxd.v line 35
+quit -sim
+vsim -novopt work.testbench_miniuart
+# vsim -novopt work.testbench_miniuart 
+# Loading work.testbench_miniuart
+# Loading work.MiniUART
+# Loading work.rx_unit
+# Loading work.tx_unit
+# Loading work.ctrl_shift
+# Loading work.trans_reg
+# Loading work.divisor
+# Loading work.counter
+view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position end  sim:/testbench_miniuart/clk
+add wave -position end  sim:/testbench_miniuart/rst
+add wave -position end  sim:/testbench_miniuart/stb
+add wave -position end  sim:/testbench_miniuart/we
+add wave -position end  sim:/testbench_miniuart/off
+add wave -position end  sim:/testbench_miniuart/din
+add wave -position end  sim:/testbench_miniuart/dout
+add wave -position end  sim:/testbench_miniuart/dsave
+add wave -position end  sim:/testbench_miniuart/ack
+add wave -position end  sim:/testbench_miniuart/rxd
+add wave -position end  sim:/testbench_miniuart/txd
+do C:/Users/Administrator/Desktop/pro2_wave1.do
+run -all
+# Break in Module testbench_miniuart at G:/modeltech_10.1a/workspace/src/testbench.v line 52
+do wave.do
+# Cannot open macro file: wave.do
+restart
+do pro2_wave1.do

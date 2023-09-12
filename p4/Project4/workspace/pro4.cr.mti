@@ -1,0 +1,89 @@
+G:/modeltech_10.1a/workspace/head_mips.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/head_mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} G:/modeltech_10.1a/workspace/datapath/im.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/datapath/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_4k
+
+Top level modules:
+	im_4k
+
+} {} {}} G:/modeltech_10.1a/workspace/datapath/npc.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/datapath/npc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} G:/modeltech_10.1a/workspace/datapath/ext.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/datapath/ext.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} G:/modeltech_10.1a/workspace/datapath/dm.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/datapath/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_4k
+
+Top level modules:
+	dm_4k
+
+} {} {}} G:/modeltech_10.1a/workspace/datapath/alu.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/datapath/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} G:/modeltech_10.1a/workspace/datapath/mux.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/datapath/mux.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mux_3_5b
+-- Compiling module mux_5_32b
+-- Compiling module mux_4_32b
+-- Compiling module mux_3_32b
+-- Compiling module mux_2_32b
+
+Top level modules:
+	mux_3_5b
+	mux_5_32b
+	mux_4_32b
+	mux_3_32b
+	mux_2_32b
+
+} {} {}} G:/modeltech_10.1a/workspace/mips.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} G:/modeltech_10.1a/workspace/datapath/pc.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/datapath/pc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} G:/modeltech_10.1a/workspace/control/ctrl.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/control/ctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} G:/modeltech_10.1a/workspace/datapath/gpr.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/datapath/gpr.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}} G:/modeltech_10.1a/workspace/testbench.v {1 {vlog -work work -vopt G:/modeltech_10.1a/workspace/testbench.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module testbench_cpu
+
+Top level modules:
+	testbench_cpu
+
+} {} {}}

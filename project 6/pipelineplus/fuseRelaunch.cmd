@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/Computer composition course design/project 6/pipelineplus/wqqe_isim_beh.exe" -prj "D:/Computer composition course design/project 6/pipelineplus/wqqe_beh.prj" "work.wqqe" "work.glbl" 
